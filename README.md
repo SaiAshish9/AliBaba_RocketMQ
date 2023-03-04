@@ -31,3 +31,7 @@ Start Broker and Proxy
 nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
 nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
 ```
+
+```
+It supports transactions, linear ordering, and message scheduling.
+```
