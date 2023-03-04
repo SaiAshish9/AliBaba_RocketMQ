@@ -37,3 +37,7 @@ It supports transactions, linear ordering, batch processing, pub sub and message
 ```
 
 <img width="923" alt="Screenshot 2023-03-05 at 2 25 05 AM" src="https://user-images.githubusercontent.com/43849911/222928272-06aee3a9-e16c-46fb-b615-79b226ad2c0f.png">
+
+```
+enablePropertyFiltering ^ SQL filtering
+```
