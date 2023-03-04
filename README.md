@@ -22,4 +22,12 @@ $ unzip rocketmq-all-5.1.0-source-release.zip
 $ cd rocketmq-all-5.1.0/
 $ mvn -Prelease-all -DskipTests -Dspotbugs.skip=true clean install -U
 $ cd distribution/target/rocketmq-5.1.0/rocketmq-5.1.0
+
+Name Server:
+nohup sh bin/mqnamesrv &
+tail -f ~/logs/rocketmqlogs/namesrv.log
+
+Start Broker and Proxy
+nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
+nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
 ```
