@@ -15,6 +15,9 @@ integration.
 https://rocketmq.apache.org/docs/quickStart/01quickstart
 
 ```
+nano ~/.zshenv
+source ~/.zshenv
+export JAVA_HOME=$(/usr/libexec/java_home)
 $ unzip rocketmq-all-5.1.0-source-release.zip
 $ cd rocketmq-all-5.1.0/
 $ mvn -Prelease-all -DskipTests -Dspotbugs.skip=true clean install -U
