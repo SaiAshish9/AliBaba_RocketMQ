@@ -36,5 +36,4 @@ nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
 It supports transactions, linear ordering, batch processing, pub sub and message scheduling.
 ```
 
-<img width="1004" alt="Screenshot 2023-03-04 at 4 01 28 PM" src="https://user-images.githubusercontent.com/43849911/222928226-a3e02ed2-1291-4377-b4e2-92fd219acbd5.png">
-
+<img width="923" alt="Screenshot 2023-03-05 at 2 25 05 AM" src="https://user-images.githubusercontent.com/43849911/222928272-06aee3a9-e16c-46fb-b615-79b226ad2c0f.png">
