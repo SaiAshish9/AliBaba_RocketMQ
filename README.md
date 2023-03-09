@@ -28,12 +28,10 @@ nohup sh bin/mqnamesrv &
 tail -f ~/logs/rocketmqlogs/namesrv.log
 
 Start Broker and Proxy
-nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
-nohup sh bin/mqbroker -n localhost:9876 --enable-proxy &
 
-/Users/saiashish/Downloads/rocketmq-all-5.1.0/distribution/target/rocketmq-5.1.0/rocketmq-5.1.0/bin/mqnamesrv
-/Users/saiashish/Downloads/rocketmq-all-5.1.0/distribution/target/rocketmq-5.1.0/rocketmq-5.1.0/bin/mqbroker -n localhost:9876  
--c /Users/saiashish/Downloads/rocketmq-all-5.1.0/distribution/target/rocketmq-5.1.0/rocketmq-5.1.0/conf/broker.conf 
+rocketmq-all-5.1.0/distribution/target/rocketmq-5.1.0/rocketmq-5.1.0/bin/mqnamesrv
+rocketmq-all-5.1.0/distribution/target/rocketmq-5.1.0/rocketmq-5.1.0/bin/mqbroker -n localhost:9876  
+-c rocketmq-all-5.1.0/distribution/target/rocketmq-5.1.0/rocketmq-5.1.0/conf/broker.conf 
 --enable-proxy
 ./mqadmin updateTopic -c DefaultCluster -t greetings-topic
 ```
